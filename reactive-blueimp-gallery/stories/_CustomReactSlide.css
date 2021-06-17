@@ -1,0 +1,27 @@
+.react-content.slide-content {
+    font-family: arial;
+}
+
+.react-content.slide-content p {
+    padding: 0 100px;
+    align-self: center;
+}
+
+.slide-content .react-slide {
+    display: flex;
+    height: 100%;
+    align-items: middle;
+    justify-content: center;
+}
+
+.slide-content .react-slide.static-content {
+    background-color: #d3b417;
+}
+
+.slide-content .react-slide.self-update-content {
+    background-color: #75ba75;
+}
+
+.slide-content .react-slide.synched-content {
+    background-color: orange;
+}
